@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>$neurajoe</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+    </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="site-info">
+                <h1>$neurajoe</h1>
+                <p>  President of the United States of Degenerates</p>
+            </div>
+            <div class="social-links">
+                <a href="https://dexscreener.com/"><img src="dex.png" alt="Dexscreener"></a>
+                <a href="https://x.com/NeuraJoe_SOL"><img src="twitter.png" alt="Twitter"></a>
+                <a href="https://t.me/+bPhpTulhqtxjYzg5"><img src="telegram.png" alt="Telegram"></a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="gif-container">
+            <img src="joe1.gif" alt="Animated GIF">
+            <p> CA: 669ZFPtqBoWaKxmgp9h9rqw2SzHeenpzcYKyMHaUpump </p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 by Faat Kok. Powered and secured by Neuralink.</p>
+    </footer>
+
+    <!-- Audio player with autoplay attribute -->
+    <audio id="audioPlayer" autoplay>
+        <source src="maga.mp3" type="audio/mp4">
+        Your browser does not support the audio element.
+    </audio>
+    
+    <!-- Start button for audio -->
+    <button id="startAudio">Start Audio</button>
+    
+    <!-- JavaScript to handle start button functionality -->
+    <script>
+        document.getElementById('startAudio').addEventListener('click', function() {
+            var audio = document.getElementById('audioPlayer');
+            audio.play();
+            this.style.display = 'none'; // Hide the start button after clicking
+        });
+    </script>
+
+</body>
+</html>
